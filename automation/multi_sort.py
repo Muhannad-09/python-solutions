@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Automatically get path to your Desktop
-desktop_path =r"C:\Users\gidea\Desktop"
+desktop_path =r"C:\Example"
 text_folder = os.path.join(desktop_path, "TextFiles")
 
 # Create the folder if it doesn't exist
