@@ -1,11 +1,17 @@
-import webbrowser  # lets us open URLs
+import webbrowser
+import time
 
-# Step 1: A list of websites to open
+# List of favorite or frequently used websites
 websites = [
+    "https://www.github.com",
+    "https://www.gmail.com",
+    "https://www.linkedin.com",
     "https://www.google.com",
-    "https://www.youtube.com",
+    "https://www.stackoverflow.com",
 ]
 
-# Step 2: Go through each website and open it
+# Open each website in a new browser tab
 for site in websites:
-    webbrowser.open(site)
+    webbrowser.open_new_tab(site)
+    time.sleep(1)  # Pause 1 second between tabs
+
