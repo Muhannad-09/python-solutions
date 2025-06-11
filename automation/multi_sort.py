@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Automatically get path to your Desktop
-desktop_path =r"C:\Example"
+desktop_path =r"C:\ExampLe"
 text_folder = os.path.join(desktop_path, "TextFiles")
 
 # Create the folder if it doesn't exist
