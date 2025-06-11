@@ -14,4 +14,3 @@ websites = [
 for site in websites:
     webbrowser.open_new_tab(site)
     time.sleep(1)  # Pause 1 second between tabs
-
